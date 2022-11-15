@@ -1,0 +1,54 @@
+{
+    "project": "unet",
+    "mate_version": "0.2.5",
+    "results_folder": "./results",
+    "override_params": {
+        "enabled": false,
+        "cuda": false
+    },
+    "restarting": false,
+    "metadata": {
+        "name": "unet",
+        "description": " on CIFAR10",
+        "version": "0.1.0",
+        "author": "Mate",
+        "authors": [],
+        "license": "MIT",
+        "url": "https//github.com/ilex-paraguariensis/examples/tree/main/pytorch-lightning/resnet-cifar10/",
+        "experiments": [
+            "carvana"
+        ],
+        "dependencies": {
+            "pip": [
+                {
+                    "name": "numpy",
+                    "version": "1.23.4"
+                },
+                {
+                    "name": "torch",
+                    "version": "1.13.0"
+                },
+                {
+                    "name": "tqdm",
+                    "version": "4.64.1"
+                },
+                {
+                    "name": "wandb",
+                    "version": "0.13.5"
+                },
+                {
+                    "name": "matplotlib",
+                    "version": "3.6.2"
+                }
+            ]
+        },
+        "exports": {
+            "data": {},
+            "experiments": {
+                "carvana": "https//github.com/ilex-paraguariensis/examples/tree/main/pytorch-lightning/resnet-cifar10/"
+            },
+            "trainers": {},
+            "models": {}
+        }
+    }
+}

@@ -2,7 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+train/
+weights.pt
+wandb/
+train_masks/
+test/
+*.zip
 # C extensions
 *.so
 
