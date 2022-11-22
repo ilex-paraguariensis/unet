@@ -1,5 +1,4 @@
 [experiment]
-restart = []
 [[experiment.train]]
 function = "train"
 module = "trainers.unet_trainer.trainer"
