@@ -21,34 +21,42 @@
         "dependencies": {
             "pip": [
                 {
-                    "name": "numpy",
-                    "version": "1.23.4"
-                },
-                {
                     "name": "torch",
                     "version": "1.13.0"
-                },
-                {
-                    "name": "tqdm",
-                    "version": "4.64.1"
                 },
                 {
                     "name": "wandb",
                     "version": "0.13.5"
                 },
                 {
+                    "name": "numpy",
+                    "version": "1.23.4"
+                },
+                {
                     "name": "matplotlib",
                     "version": "3.6.2"
+                },
+                {
+                    "name": "tqdm",
+                    "version": "4.64.1"
                 }
             ]
         },
         "exports": {
-            "data": {},
+            "data": {
+                "loaders": {
+                    "carvana": "https//github.com/ilex-paraguariensis/examples/tree/main/pytorch-lightning/resnet-cifar10/unet/data/loaders/carvana/"
+                }
+            },
             "experiments": {
                 "carvana": "https//github.com/ilex-paraguariensis/examples/tree/main/pytorch-lightning/resnet-cifar10/"
             },
-            "trainers": {},
-            "models": {}
+            "trainers": {
+                "unet_trainer": "https//github.com/ilex-paraguariensis/examples/tree/main/pytorch-lightning/resnet-cifar10/unet/trainers/unet_trainer/"
+            },
+            "models": {
+                "unet": "https//github.com/ilex-paraguariensis/examples/tree/main/pytorch-lightning/resnet-cifar10/unet/models/unet/"
+            }
         }
     }
 }
